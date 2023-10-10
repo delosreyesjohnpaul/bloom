@@ -28,6 +28,12 @@ body {
   perspective: 1000px;
 }
 
+audio {
+    width: 150%;
+    max-width: 200px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
 .night {
   position: fixed;
   left: 50%;
@@ -1330,7 +1336,6 @@ body {
     </style>
 </head>
 <body>
-  <audio src="limbo.mp3" style="display:none;" autoplay></audio>
 <body class="not-loaded">
     <div class="night"></div>
     <div class="flowers">
@@ -1630,7 +1635,7 @@ body {
       </div>
     </div>
   </body>
-  <audio src="limbo.mp3" autoplay></audio>
+  <audio src="limbo.mp3" controls="controls" autoplay></audio>
 </body>
 <script>   
 onload = () => {
